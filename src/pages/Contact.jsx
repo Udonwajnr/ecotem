@@ -10,21 +10,21 @@ const Contact = () => {
   const [input,setInput] = useState({})
 
   
-  const form =useRef()
+  const form=useRef()
 
   const handleChange = (e)=>{
     // use let value can be changed
     let newInput = {[e.target.name]:e.target.value }
     setInput({...input, ...newInput})
   }
-
+// console.log(process.env)
 // emailjs.js api
   const sendEmail=(e)=>{
       e.preventDefault()
       emailjs.sendForm(`${process.env.REACT_APP_EMAIL_YOUR_SERVICE_ID}`,`${process.env.REACT_APP_EMAIL_YOUR_TEMPLATE_ID}`,form.current,`${process.env.REACT_APP_EMAIL_YOUR_PUBLIC_KEY}`)
-      .then(()=>{alert('Message has been sent successfully');e.target.reset()})
-      .catch(()=>alert('Message has not been sent. Try agin'))
-      
+      .then((data)=>{alert('Message has been sent');
+              e.target.reset()})
+      .catch(()=>alert('message not sent'))
   }
 
 
