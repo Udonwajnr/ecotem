@@ -19,7 +19,6 @@ const Contact = () => {
   }
 
 // emailjs.js api
-  console.log(process.env)
   const sendEmail=(e)=>{
       e.preventDefault()
       emailjs.sendForm(`${process.env.REACT_APP_EMAIL_YOUR_SERVICE_ID}`,`${process.env.REACT_APP_EMAIL_YOUR_TEMPLATE_ID}`,form.current,`${process.env.REACT_APP_EMAIL_YOUR_PUBLIC_KEY}`)
