@@ -1,0 +1,21 @@
+
+
+@media only screen and (min-width: 768px) {
+    .website__cards {
+        grid-template-columns: auto auto;
+
+    }
+}
+@media only screen and (min-width: 1112px) {
+    .website__cards {
+        grid-template-columns: auto auto auto;
+
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .website__cards {
+        grid-template-columns: auto;
+    }
+}

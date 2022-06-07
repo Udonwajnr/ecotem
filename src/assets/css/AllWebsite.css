@@ -1,0 +1,26 @@
+.all__cards {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    transition: .2s;
+}
+
+.all__sites h3 {
+    color: #000;
+}
+
+.all__sites__header {
+    text-align: center;
+}
+.all__sites__header h2{
+    color: #cbc19d;
+    text-transform: capitalize;
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

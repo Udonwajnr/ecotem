@@ -1,0 +1,9 @@
+@media only screen and (max-width:768px){
+    .nav__links{
+        display: none;
+    }
+    .nav-icon{
+        display: initial;
+        cursor: pointer;
+    }
+}

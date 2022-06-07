@@ -1,0 +1,47 @@
+.cards{
+    width: 100%;
+    max-width: 300px;
+    background-color: #cbc19d;
+    padding: 10px;
+    margin-top:15px ;
+    border-radius: 10px;
+    color: #2f3036;
+
+}
+
+.card__title{
+    text-transform:capitalize;
+    color: black;
+}
+.card__body{
+    margin-top: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.btns a{
+    text-decoration: none;
+    border: 2px solid #2f3036;
+    padding: 5px 20px;
+    color:#2f3036;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btns a:hover{
+    background-color: #2f3036;
+    color: #cbc19d;
+    transition: .2s;
+}
+
+.buy__price{
+    display: flex;   
+}
+
+.buy__price span{
+    margin: 0 5px;
+}

@@ -1,0 +1,12 @@
+.reviews{
+     background-color:#2f3036;
+     padding-bottom: 30px;
+}
+.review{
+    text-align: center;
+    margin-top: 30px;
+}
+.review h2{
+    color: #cbc19d;
+    text-transform: capitalize;
+}

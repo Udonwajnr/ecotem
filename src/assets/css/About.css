@@ -1,0 +1,30 @@
+.about{
+    padding: 10px 20px;
+    color: #cbc19d;
+    background-color:#2f3036 ;
+    scroll-behavior: smooth;
+}
+.about__header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.about__img img{
+    width:100%;
+    max-width: 500px;
+}
+.about__body{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.about__body article{
+    font-size: 20px;
+    text-align: center;
+}
+
+.about__body .about__img{
+    display: flex;
+    justify-content: center;
+}

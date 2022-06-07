@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #cbc19d;
+    padding: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.logo__link{
+    text-decoration: none;
+    color: #cbc19d;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.links{
+    text-decoration: none;
+    color: #cbc19d;
+}
+.nav-links ul{
+    display: flex;
+}
+
+.nav__links ul li{
+    margin: 0 10px;
+}
+
+.nav-icon{
+    display: none;
+}

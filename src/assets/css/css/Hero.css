@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+    .hero__info h1 {
+    }
+}
+
+@media only screen and (min-width: 1112px) {
+    .hero__info h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .hero{
+        padding: 5px 10px;
+    }
+    .hero__info h1 {
+        font-size: 40px;
+    }
+}
